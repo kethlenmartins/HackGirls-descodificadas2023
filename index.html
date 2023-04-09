@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>HackGirls</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body> 
+
+<nav style="float:left; background-color: blueviolet;">
+    <img src="imagens/logotipo.png" width="50px" height="50px" alt="Logotipo do site" style="float:left">
+    <h4 style="float:left; color: white;">Hack Girls</h4>
+    <a href="#programação">Programação</a>
+    <a href="#requisitos">Requisitos</a>
+    <a href="#palestrantes">Palestrantes</a>
+    <a href="#local">Local</a>
+    <a href="#inscrição">Inscreva-se</a>
+</nav>
+
+<div style="background-image: url(imagens/fundo1.jpg); text-align: center; color:white">
+    <br>
+    <h4>Participe!</h4>
+    <h1>HackGirls</h1>
+    <h4>1º hackathon organizado inteiramente por estudantes mulheres do Ensino Médio no Rio de Janeiro</h4>
+    <br>
+</div>
+
+<div id="programação" style="background-color: blueviolet;text-align: center; color:white">
+
+    <h1>Não perca essa!</h1>
+    <a href="#inscrição">
+        <button>Confirme a sua presença</button>
+    </a>
+
+    <h4>Dia 1</h4>
+    <img alt="Workshops realizados gratuitamente por palestrantes mulheres" src="imagens/dia1.jpg" width="300px" height="300px">
+    <p>Dia de workshops gratuitos</p>
+
+    <h4>Dia 2</h4>
+    <img alt="Participantes divididas em grupos continuarão o desenvolvimento do projeto" src="imagens/dia2.jpg" width="300px" height="300px">
+    <p>Mentoria e construção dos projetos</p>
+
+    <h4>Dia 3</h4>
+    <img alt="A partir do modelo pitch, cada grupo apresentará sua ideia e protótipo, seguida da escolha dos melhores projetos em cada categoria" src="imagens/dia3.jpg" width="300px" height="300px">
+    <p>Apresentação para banca de jurados e cerimônia de premiações</p><br>
+</div>
+
+<h1 style="color:blueviolet; text-align:center">Não sabe o que é um hackathon ou não tem certeza se é válido participar? Dá uma olhadinha nesse vídeo!</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ffolPw5I32I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div style="background-color: blueviolet; color:white">
+    <h3 id="requisitos">Requisitos para participar</h3>
+    <br>
+    <ul style="list-style-type: disc;">
+        <li>Identificar-se como mulher</li>
+        <li>Ter no mínimo 18 anos no primeiro dia do evento</li>
+        <li>Participar em grupos de no mínimo 3 e no máximo 6 mulheres</li>
+        <li>Possuir seu próprio equipamento (notebook, livros, etc) - a organização não se responsabiliza pela distribuição de recursos para a criação e realização do projeto final</li>
+    </ul>
+    <br>
+
+    <div style="text-align: center;">
+    <h1 id="palestrantes">Vem ver algumas das nossas palestrantes confirmadas!</h1>
+
+    <img alt="Rafaella Ballerini" src="imagens/rafa-ballerini.png" width="200px" height="200px">
+    <h4>Rafaella Ballerini</h4>
+
+    <img alt="Kizy Terra" src="imagens/kizzy-terra.jpg" width="200px" height="200px">
+    <h4>Kizzy Terra</h4>
+
+    <img alt="Karol Attekita" src="imagens/karol-attekita.jpg" width="200px" height="200px">
+    <h4>Karol Attekita</h4>
+
+    <img alt="Camila Achutti" src="imagens/carol-achutti.jpg" width="200px" height="200px">
+    <h4>Camila Achutti</h4>
+    </div><br>
+</div>
+
+<div id="local" style="color:blueviolet">
+<img alt="Campus da Universidade Veiga de Almeida" src="imagens/campus-uva.jpg" width="200px" height="200px" style="float:left">
+<img alt="Biblioteca da Universidade Veiga de Almeida" src="imagens/biblioteca-uva.jpg" width="200px" height="200px" style="float:left">
+
+<h1>Local</h1>
+<h4>Universidade Veiga de Almeida (Tijuca)</h4>
+<p>R. Ibituruna, 108 - Maracanã, Rio de Janeiro - RJ</p>
+<h4>Universidade próxima às estações de trem e metrô São Cristóvão, com entrada pela Rua Ibituruna</h4>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1322.0356491836528!2d-43.222034775580155!3d-22.91178164218748!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e57963eedf3%3A0xaf52199fd71ffebb!2sUniversidade%20Veiga%20de%20Almeida!5e0!3m2!1spt-BR!2sus!4v1680793201637!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<br>
+<br>
+
+<form id="inscrição" style="color:white; background-color: purple;">
+<br>
+<fieldset>
+    <h1>Esperamos contar com sua presença</h1>
+    <input type="text" name="nome" placeholder="Digite seu Nome aqui" required><br>
+    <input type="e-mail" name="email" placeholder="Digite seu e-mail" required><br>
+    <input type="month" name="data" placeholder="Indique sua data de nascimento" required><br>
+    <p>Você possui um grupo pré-definido ou gostaria de conhecer outras mulheres através do hackathon?</p>
+        <input type="radio" name="grupo" value="sim" required>
+        <label for="sim">Já possuo um grupo</label><br>
+        <input type="radio" name="grupo" value="não" required>
+        <label for="não">Não tenho grupo formado</label><br>
+    <br>
+    <button type="submit" onclick="alert('Parabéns! Sua inscrição foi completada!')">Confirme sua presença</button>
+</fieldset>
+<br>
+</form>
+
+<hr>
+
+<footer style="background-color: purple; color: white;">
+    <br>
+    <h4 style="text-align:center">Mulheres têm o potencial e o papel de mudar o mundo, <br>
+    apenas precisam das oportunidades certas. - Kethlen Martins</h4>
+    <br>
+</footer>
+
+</body>
+
+    </html>
